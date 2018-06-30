@@ -1,3 +1,3 @@
 # JavaScript
 
-- Really I need make my portfolio.
+- I really need to make my portfolio..
