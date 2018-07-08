@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand2" data-js="company-name" / >
+            <a class="navbar-brand2" data-js="company-phone" / >                    
+        </div>
+    </div>
+    <div class="center">                
+        <form action="/" data-js="form-register">
+            <div class="form-group">
+                <label class="col-form-label" for="inputDefault">Image (Url)</label>
+                <input type="url" class="form-control" placeholder="Default input" id="inputDefault" data-js="image">
+                <label class="col-form-label" for="inputDefault">Model / Brand</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault" data-js="brand-model">
+                <label class="col-form-label" for="inputDefault">Year</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault" data-js="year">
+                <label class="col-form-label" for="inputDefault">Plate</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault" data-js="plate">
+                <label class="col-form-label" for="inputDefault">Color</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault" data-js="color">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </form>            
+    </div>
+    <dir class="center-table">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Model / Brand</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Plate</th>
+                    <th scope="col">Color</th>
+                </tr>
+            </thead>
+            <tbody data-js="table-car">
+            </tbody>
+        </table> 
+    </dir>
+    <script src="/DOM.js"></script>
+    <script src="/challenge-30.js"></script>
+</body>
+</html>

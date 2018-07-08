@@ -1308,7 +1308,7 @@
              flex: 0 0 33.3333333333%;
      max-width: 33.3333333333%;
    }
-   .col-lg-5 {
+   .x-5 {
      -webkit-box-flex: 0;
          -ms-flex: 0 0 41.6666666667%;
              flex: 0 0 41.6666666667%;
@@ -9598,3 +9598,24 @@
  .modal-header .close:hover, .modal-header .close:focus, .modal-footer .close:hover, .modal-footer .close:focus {
    opacity: 1;
  }
+
+ .center {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+.center-table {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.navbar-brand2 {
+  color: #fff;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
