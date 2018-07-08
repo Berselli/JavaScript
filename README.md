@@ -1,3 +1,3 @@
 # JavaScript
 
-- I really need to make my portfolio.
+- My learning project codes.
