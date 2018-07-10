@@ -65,7 +65,7 @@
 
             comapnyInfo: function(){
                 let ajax = new XMLHttpRequest();
-                ajax.open('GET', '/company.json', true);
+                ajax.open('GET', 'company.json', true);
                 ajax.send();
                 ajax.addEventListener('readystatechange', this.getCompanyInfo, false);
             },
